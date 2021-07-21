@@ -2,10 +2,11 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 20%;
+    width: 40vh;
     height: 100vh;
     background: cornsilk;
     overflow: scroll;
+    transition: all 0.5s linear;
 
     h1 {
         padding-top: 1rem;
@@ -40,6 +41,13 @@
 
 }
 
+.displayNone {
+    transform: translateX(-50vh);
+}
+
+.selected {
+    background: wheat;
+}
 
 * {
     scrollbar-width: thin;

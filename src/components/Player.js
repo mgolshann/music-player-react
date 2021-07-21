@@ -35,7 +35,7 @@ function Player({ currentSong, isPlaying, setisPlaying }) {
         <div className="play-container">
             <div className="time-control">
                 <p>{timeFormat(songInfo.currentTime)}</p>
-                <input onChange={dragHandle} min={0} max={songInfo.duration} value={songInfo.currentTime} type="range" />
+                <input onChange={dragHandle} min={0} max={songInfo.duration || 0} value={songInfo.currentTime} type="range" />
                 <p>{timeFormat(songInfo.duration)}</p>
             </div>
             <div className="play-control">

@@ -18,7 +18,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=19058",
             color: ["6693D4", "A8BAD0"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Dreamstate",
@@ -27,7 +27,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=21784",
             color: ["7D77FF", "414342"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Kinship",
@@ -36,7 +36,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=19058",
             color: ["6693D4", "A8BAD0"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Dreamstate",
@@ -45,7 +45,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=21784",
             color: ["7D77FF", "414342"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Kinship",
@@ -54,7 +54,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=19058",
             color: ["6693D4", "A8BAD0"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Dreamstate",
@@ -63,7 +63,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=21784",
             color: ["7D77FF", "414342"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Kinship",
@@ -72,7 +72,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=19058",
             color: ["6693D4", "A8BAD0"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Dreamstate",
@@ -81,7 +81,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=21784",
             color: ["7D77FF", "414342"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Kinship",
@@ -90,7 +90,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=19058",
             color: ["6693D4", "A8BAD0"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Dreamstate",
@@ -99,7 +99,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=21784",
             color: ["7D77FF", "414342"],
             id: uuidv4(),
-            active: true
+            active: false
         },
         {
             name: "Kinship",
@@ -108,7 +108,7 @@ export default function musicData() {
             audio: "https://mp3.chillhop.com/serve.php/?mp3=19058",
             color: ["6693D4", "A8BAD0"],
             id: uuidv4(),
-            active: true
+            active: false
         },
     ]
 }
