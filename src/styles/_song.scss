@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.song-container {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    img {
+        width: 20%;
+        border-radius: 50%;
+    }
+
+    h2 {
+        padding: 1rem;
+        font-family: 'Coda Caption', sans-serif;
+    }
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+    }
+}
