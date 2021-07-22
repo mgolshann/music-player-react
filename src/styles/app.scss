@@ -4,6 +4,18 @@
     margin: 0
 }
 
+.App {
+    transition: all 1s ease;
+}
+
+.activeList {
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
 
 @import './_player.scss';
 @import './_song.scss';

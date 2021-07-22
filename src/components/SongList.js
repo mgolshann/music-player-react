@@ -8,7 +8,12 @@ function SongList({ songs, setCurrentSong, setSongs, toggleList }) {
             <h1>List of Songs</h1>
             {
                 songs.map(song => (
-                    <SongListItem key={song.id} setSongs={setSongs} song={song} setCurrentSong={setCurrentSong} songs={songs} />
+                    <SongListItem key={song.id}
+                        song={song}
+                        setSongs={setSongs}
+                        songs={songs}
+                        setCurrentSong={setCurrentSong}
+                    />
                 ))
             }
         </div>

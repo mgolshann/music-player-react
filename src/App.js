@@ -11,14 +11,27 @@ function App() {
     const [currentSong, setCurrentSong] = useState(songs[0])
     const [isPlaying, setisPlaying] = useState(false)
     const [toggleList, setToggleList] = useState(false)
+
     return (
-        <div className="App">
+        <div className={`app ${toggleList && 'activeList'}`}>
             <h1>Music Player</h1>
             <div className="song-player">
-                <ToggleList setToggleList={setToggleList} toggleList={toggleList} />
+                <ToggleList
+                    setToggleList={setToggleList}
+                    toggleList={toggleList} />
                 <Song currentSong={currentSong} />
-                <Player currentSong={currentSong} isPlaying={isPlaying} setisPlaying={setisPlaying} />
-                <SongList toggleList={toggleList} setCurrentSong={setCurrentSong} songs={songs} setSongs={setSongs} />
+                <Player
+                    setSongs={setSongs}
+                    songs={songs}
+                    setCurrentSong={setCurrentSong}
+                    currentSong={currentSong}
+                    isPlaying={isPlaying}
+                    setisPlaying={setisPlaying} />
+                <SongList
+                    toggleList={toggleList}
+                    setCurrentSong={setCurrentSong}
+                    songs={songs}
+                    setSongs={setSongs} />
             </div>
         </div>
     )
